@@ -1,4 +1,4 @@
-import NavLinkLayout from "./(auth)/layout";
+import NavLinkLayout from "./(auth)/template";
 import Link from "next/link";
 export default function Home() {
   return (

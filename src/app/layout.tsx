@@ -10,6 +10,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             padding: "10px",
             margin: "0",
           }}
+          className="text-3xl"
         >
           <h1>Header</h1>
         </header>
@@ -25,7 +26,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           className="text-3xl"
         >
           <h1>Footer</h1>
-         
         </footer>
       </body>
     </html>
