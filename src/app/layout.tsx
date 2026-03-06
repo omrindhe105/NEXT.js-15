@@ -11,9 +11,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             margin: "0",
           }}
           className="text-3xl"
-        >
-          <h1>Header</h1>
-        </header>
+        ></header>
 
         {children}
 
