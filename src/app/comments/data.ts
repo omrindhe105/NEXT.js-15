@@ -3,38 +3,30 @@
 type User = {
   id: number;
   name: string;
-  email: string;
-  role: string;
-  isActive: boolean;
+  comment: string;
 };
 
 export const users: User[] = [
   {
     id: 1,
     name: "Rahul Sharma",
-    email: "rahul@example.com",
-    role: "Admin",
-    isActive: true,
+    comment: "This is a great post! Thanks for sharing.",
   },
   {
     id: 2,
     name: "Priya Patel",
-    email: "priya@example.com",
-    role: "Teacher",
-    isActive: true,
+    comment:
+      "I found this information very helpful. Looking forward to more content like this.",
   },
   {
     id: 3,
     name: "Amit Verma",
-    email: "amit@example.com",
-    role: "Student",
-    isActive: false,
+    comment: "Great insights! Keep up the good work.",
   },
   {
     id: 4,
     name: "Sneha Kulkarni",
-    email: "sneha@example.com",
-    role: "Student",
-    isActive: true,
+    comment:
+      "Thanks for the detailed explanation. It really helped me understand the concept better.",
   },
 ];
